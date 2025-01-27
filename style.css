@@ -20,7 +20,16 @@ h2 {
 h3,h4,h5,h6 {
     font-weight: 700;
     line-height: 1.3em;
+    color:#502314;
 }
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
 h6 {
     color:#502314;
     font-size: 22px;
@@ -43,7 +52,7 @@ img {
 .bg-info {
     background: #f5ebdc !important;
 }
-#about, #work, #service, #contact{
+#about, #work, #service, #contact, #footer {
     padding-top: 90px;
     
 }
@@ -72,4 +81,20 @@ img {
 ===============================*/
 #contact {
     background: url('img/map.jpg') no-repeat center;
+}
+
+/*==============================
+*Footer Area STYLES STARTS
+===============================*/
+#footer form .btn.btn-info {
+    border-radius:0;
+}
+#footer ul li a {
+    color: #262626;
+    text-decoration: none;
+    font-weight: 500    ;
+}
+#footer .social li{
+    display: inline-block;
+    margin-right: 15px;
 }
