@@ -56,6 +56,7 @@ img {
     padding-top: 90px;
     
 }
+
 /*==============================
 *HEADER AREA STYLES STARTS
 ===============================*/
@@ -65,6 +66,10 @@ img {
 }
 #main_menu nav ul li {
     margin-left :15px;
+}
+#main_menu a.active {
+    color: #d62300;
+    font-weight:700;
 }
 
 
