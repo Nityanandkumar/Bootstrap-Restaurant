@@ -43,8 +43,8 @@ img {
 .bg-info {
     background: #f5ebdc !important;
 }
-#about, #work, #service{
-    padding-top: 100px;
+#about, #work, #service, #contact{
+    padding-top: 90px;
     
 }
 /*==============================
@@ -68,6 +68,8 @@ img {
 
 
 /*==============================
-*About Area STYLES STARTS
+*Contact Area STYLES STARTS
 ===============================*/
-
+#contact {
+    background: url('img/map.jpg') no-repeat center;
+}
