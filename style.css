@@ -103,3 +103,31 @@ img {
     display: inline-block;
     margin-right: 15px;
 }
+
+/*==============================
+*Responsive STYLES STARTS
+===============================*/
+@media only screen and (max-width: 768px) {
+    #main_menu .navbar-brand {
+        max-width: 45%;
+    }
+    #slider button.carousel-control-prev, #slider button.carousel-control-next {
+       align-self: center;
+    }
+    #slider {
+        padding-top:65px;
+    }
+    #about, #work, #service, #contact, #footer {
+        padding-top: 35px;
+    }
+    h2 {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    h6 {
+        font-size: 16px;
+    }
+}
