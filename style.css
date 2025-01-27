@@ -40,8 +40,9 @@ img {
     border-radius:25px;
     padding:12px 35px;
 }
-.bg-info {
-    background: #f5ebdc !important;
+#about, #work, #service{
+    padding-top: 100px;
+    
 }
 /*==============================
 *HEADER AREA STYLES STARTS
@@ -66,7 +67,4 @@ img {
 /*==============================
 *About Area STYLES STARTS
 ===============================*/
-#about, #work {
-    padding-top: 100px;
-    
-}
+
