@@ -40,6 +40,9 @@ img {
     border-radius:25px;
     padding:12px 35px;
 }
+.bg-info {
+    background: #f5ebdc !important;
+}
 #about, #work, #service{
     padding-top: 100px;
     
