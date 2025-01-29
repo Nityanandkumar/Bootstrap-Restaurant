@@ -1,5 +1,11 @@
 {
+  "name": "bootstrap-restaurant",
+  "version": "1.0.0",
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "parcel": "^2.0.0"
+  },
+  "scripts": {
+    "build": "parcel build index.html"
   }
 }
