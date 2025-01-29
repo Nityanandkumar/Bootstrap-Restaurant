@@ -6,6 +6,11 @@
     "parcel": "^2.0.0"
   },
   "scripts": {
-    "build": "parcel build index.html"
+    "prebuild": "npm run copy-bootstrap",
+    "build": "parcel build index.html",
+    "copy-bootstrap": "copyfiles -u 2 ./node_modules/bootstrap/dist/css/bootstrap.min.css ./dist/css && copyfiles -u 2 ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js ./dist/js"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1"
   }
 }
