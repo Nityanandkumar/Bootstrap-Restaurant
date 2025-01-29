@@ -9,6 +9,9 @@ jobs:
   deploy:
     runs-on: windows-latest
 
+    permissions:
+      contents: write  # Ensure the token has write permissions
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -27,5 +30,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./dist  # This is the default output directory for Parcel
